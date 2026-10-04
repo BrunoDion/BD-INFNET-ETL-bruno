@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: consumo
+    database: pdbrunodion
+    schema: projeto_brunoDion
+
+    tables:
+      - name: stg_cliente
+      - name: stg_categoria
+      - name: stg_produto
+      - name: stg_pedido
+      - name: stg_detalhe_pedido
